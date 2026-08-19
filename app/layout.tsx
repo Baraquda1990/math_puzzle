@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, Noto_Sans, Raleway } from "next/font/google"
-
+import Script from "next/script";
 import "./globals.css"
 import { cn } from "@/lib/utils";
 import Header from "@/components/header/Header";
@@ -151,6 +151,19 @@ export default function RootLayout({
         {children}
         </main>
         <Footer/>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2S4KCZB46G"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2S4KCZB46G');
+          `}
+        </Script>
       </body>
     </html>
   )
