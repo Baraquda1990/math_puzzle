@@ -297,7 +297,7 @@ function check_answer(runtime,ans,vopr,vopr_true,text_input,number_level){
 		runtime.callFunction("Play_win");
 		!correctly_answered.has(current_level+1)?correctly_answered.add(current_level+1):{};
 		localStorage.setItem("correctly_answered",JSON.stringify([...correctly_answered]));
-		let time=3000;
+		let time=1000;
 		block_buttons(runtime,time);
 		runtime.globalVars.particle=true;
 		setTimeout(() => {
