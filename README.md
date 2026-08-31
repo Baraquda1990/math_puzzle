@@ -1,21 +1,181 @@
-# Next.js template
+# Math Genius 🧠
 
-This is a Next.js template with shadcn/ui.
+**Math Genius** — веб-игра с математическими головоломками, разработанная с использованием **Next.js**.
 
-## Adding components
+Игроку необходимо находить закономерности в числовых последовательностях и выбирать правильный ответ. Проект сочетает игровую механику с современным веб-сайтом, SEO-оптимизацией и адаптивным дизайном.
 
-To add components to your app, run the following command:
+## 🌐 Live Demo
+
+**Website:** https://mathpuzzle.fun/
+
+## 📸 Preview
+
+
+
+## ✨ Features
+
+* 🧩 Математические головоломки
+* 🔢 Числовые последовательности
+* 🎮 Интерактивный игровой процесс
+* 📱 Адаптивный дизайн для смартфонов и планшетов
+* 🖥️ Desktop-версия
+* ⚡ Быстрая загрузка благодаря Next.js
+* 🔍 SEO-оптимизация
+* 📊 Интеграция веб-аналитики
+* 🌐 Отдельная страница для игры
+* 📱 Возможность играть непосредственно в браузере
+
+## 🎮 Game
+
+Игровая часть проекта создана в **Construct** и интегрирована в Next.js через iframe. Next.js отвечает за сайт и его страницы, а Construct — за игровую механику.
+
+## 🛠 Technologies
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn
+* RemixIcon
+
+### Game
+
+* Construct
+
+### Analytics & SEO
+
+* Google Analytics
+* Google Search Console
+* Sitemap
+* Open Graph
+* JSON-LD / structured data
+
+### Deployment
+
+* Vercel
+
+## 🔍 SEO
+
+Проект оптимизирован для поисковых систем.
+
+Используются:
+
+* title и meta description;
+* canonical URL;
+* Open Graph;
+* favicon и web icons;
+* sitemap.xml;
+* robots.txt;
+* структурированные данные;
+* адаптивная версия сайта.
+
+## 📊 Analytics
+
+Для анализа посещаемости сайта используется **Google Analytics**.
+
+Аналитика позволяет отслеживать:
+
+* количество посетителей;
+* новых пользователей;
+* источники трафика;
+* посещение страниц;
+* взаимодействие пользователей с сайтом.
+
+## 🚀 Getting Started
+
+Клонируйте репозиторий:
 
 ```bash
-npx shadcn@latest add button
+git clone <repository-url>
 ```
 
-This will place the ui components in the `components` directory.
+Перейдите в директорию проекта:
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
+```bash
+cd mathpuzzle
 ```
+
+Установите зависимости:
+
+```bash
+npm install
+```
+
+Запустите development-сервер:
+
+```bash
+npm run dev
+```
+
+Откройте:
+
+```text
+http://localhost:3000
+```
+
+## 📦 Production Build
+
+Создание production-сборки:
+
+```bash
+npm run build
+```
+
+Запуск:
+
+```bash
+npm start
+```
+
+## 📁 Project Structure
+
+Примерная структура проекта:
+
+```text
+mathpuzzle/
+├── app/
+│   ├── play/
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Header/
+│   └── Footer/
+│
+├── public/
+│   ├── math/
+│   │   └── index.html
+│   ├── og-image.png
+│   ├── favicon.ico
+│   └── ...
+│
+├── package.json
+├── next.config.*
+├── tailwind.config.*
+└── README.md
+```
+
+Фактическая структура может отличаться в зависимости от версии проекта.
+
+## 💡 Project Concept
+
+Основная идея проекта — превратить математические задачи на поиск закономерностей в короткую и доступную браузерную игру.
+
+Игрок видит последовательность чисел:
+
+```text
+2 → 4 → 8 → 16 → ?
+```
+
+и должен определить закономерность и найти следующее число.
+
+Сложность головоломок увеличивается по мере прохождения игры.
+
+## 👨‍💻 Author
+
+Developed with **Next.js, TypeScript, Tailwind CSS and Construct**.
+
+---
