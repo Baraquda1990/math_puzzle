@@ -10,7 +10,11 @@
 
 ## 📸 Preview
 
+<img width="1449" height="919" alt="Снимок экрана от 2026-08-31 12-14-58" src="https://github.com/user-attachments/assets/17c62554-1fba-4c2b-9855-5e45da36c137" />
 
+https://github.com/user-attachments/assets/0daf355f-cdd5-4b00-9ddd-042520c63726
+
+https://github.com/user-attachments/assets/fe830755-3db5-4aa3-95ba-854b22ec6e59
 
 ## ✨ Features
 
