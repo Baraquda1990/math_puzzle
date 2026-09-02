@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Math Genius",
-    short_name: "Math Genius",
+    name: "Math Puzzles",
+    short_name: "Math Puzzles",
     description: "A free online math puzzle game.",
     start_url: "/",
     display: "standalone",

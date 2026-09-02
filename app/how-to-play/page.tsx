@@ -7,10 +7,10 @@ import { RiArrowDownLongLine } from "@remixicon/react"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "How to Play Math Genius",
+  title: "How to Play Math Puzzles",
 
   description:
-    "Learn how to play Math Genius. Read number sequences, find hidden patterns, enter your answer, and progress through challenging math puzzle levels.",
+    "Learn how to play Math Puzzles. Read number sequences, find hidden patterns, enter your answer, and progress through challenging math puzzle levels.",
 
   alternates: {
     canonical: "https://mathpuzzle.fun/how-to-play",
@@ -21,17 +21,17 @@ export const metadata: Metadata = {
 
     url: "https://mathpuzzle.fun/how-to-play",
 
-    title: "How to Play Math Genius",
+    title: "How to Play Math Puzzles",
 
     description:
-      "Learn the rules of Math Genius and discover how to solve number sequence puzzles.",
+      "Learn the rules of Math Puzzles and discover how to solve number sequence puzzles.",
 
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "How to Play Math Genius",
+        alt: "How to Play Math Puzzles",
       },
     ],
   },
@@ -42,10 +42,10 @@ const howToJsonLd = {
 
   "@type": "HowTo",
 
-  name: "How to Play Math Genius",
+  name: "How to Play Math Puzzles",
 
   description:
-    "Learn how to solve number sequence puzzles in Math Genius.",
+    "Learn how to solve number sequence puzzles in Math Puzzles.",
 
   totalTime: "PT5M",
 
@@ -94,7 +94,7 @@ export default function page(){
         p-5 pb-10 
         max-w-md my-5 mx-auto">
             <article className="flex flex-col items-center">
-            <h1 className="mt-5 text-2xl font-bold text-white uppercase">How to Play Math Genius</h1>
+            <h1 className="mt-5 text-2xl font-bold text-white uppercase">How to Play Math Puzzles</h1>
             <div className="w-[60px] h-[4px] bg-[#f9eb10] mt-3 mb-6"/>
 
             <Image src={h1} alt="" className="mt-3 w-23"/>

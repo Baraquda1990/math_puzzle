@@ -6,10 +6,10 @@ import p2 from "@/public/p2.png"
 import p3 from "@/public/p3.png"
 
 export const metadata: Metadata = {
-  title: "About Math Genius",
+  title: "About Math Puzzles",
 
   description:
-    "Learn more about Math Genius, a fun math puzzle game based on number sequences, patterns, and increasingly challenging levels.",
+    "Learn more about Math Puzzles, a fun math puzzle game based on number sequences, patterns, and increasingly challenging levels.",
 
   alternates: {
     canonical: "https://mathpuzzle.fun/about",
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     type: "article",
     url: "https://mathpuzzle.fun/about",
 
-    title: "About Math Genius",
+    title: "About Math Puzzles",
 
     description:
-      "Discover Math Genius, a fun online math puzzle game with challenging number sequences and progressive levels.",
+      "Discover Math Puzzles, a fun online math puzzle game with challenging number sequences and progressive levels.",
 
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "About Math Genius",
+        alt: "About Math Puzzles",
       },
     ],
   },
@@ -40,16 +40,16 @@ const aboutJsonLd = {
 
   "@type": "AboutPage",
 
-  name: "About Math Genius",
+  name: "About Math Puzzles",
 
   url: "https://mathpuzzle.fun/about",
 
   description:
-    "Learn more about Math Genius and its math puzzle gameplay.",
+    "Learn more about Math Puzzles and its math puzzle gameplay.",
 
   isPartOf: {
     "@type": "WebSite",
-    name: "Math Genius",
+    name: "Math Puzzles",
     url: "https://mathpuzzle.fun/",
   },
 };
@@ -73,8 +73,8 @@ export default function page(){
                 <Image src={a1} alt="about the game" />
             </div>
             <p className="text-white text-lg/6 mt-5">
-                Math Genius is a fun and addictive math puzzle game designed for all ages.
-                Solve number sequences, patterns and equations to advance through levels and become a true math genius!
+                Math Puzzles is a fun and addictive math puzzle game designed for all ages.
+                Solve number sequences, patterns and equations to advance through levels and become a true math Puzzles!
             </p>
             <div className="mt-10 flex text-white text-xl">
                 <Image src={p1} alt="Challenging Puzzles" className="w-15 h-15"/>
@@ -102,7 +102,7 @@ export default function page(){
               href="/"
               className="text-white font-bold underline"
             >
-              Play Math Genius
+              Play Math Puzzles
             </Link>
           </div>
         </article>

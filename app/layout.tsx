@@ -15,23 +15,23 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mathpuzzle.fun"),
 
   title: {
-    default: "Math Genius - Math Puzzle Game",
-    template: "%s | Math Genius",
+    default: "Math Puzzles - Math Puzzle Game",
+    template: "%s | Math Puzzles",
   },
 
   description:
-    "Play Math Genius, a fun and challenging math puzzle game. Solve number sequences, find patterns, complete levels, and test your mathematical skills online.",
-  applicationName: "Math Genius",
+    "Play Math Puzzles, a fun and challenging math puzzle game. Solve number sequences, find patterns, complete levels, and test your mathematical skills online.",
+  applicationName: "Math Puzzles",
 
   authors: [
     {
-      name: "Math Genius",
+      name: "Math Puzzles",
     },
   ],
 
-  creator: "Math Genius",
+  creator: "Math Puzzles",
 
-  publisher: "Math Genius",
+  publisher: "Math Puzzles",
 
   category: "games",
 
@@ -74,19 +74,19 @@ export const metadata: Metadata = {
 
     url: "https://mathpuzzle.fun/",
 
-    siteName: "Math Genius",
+    siteName: "Math Puzzles",
 
-    title: "Math Genius - Math Puzzle Game",
+    title: "Math Puzzles - Math Puzzle Game",
 
     description:
-      "Solve number sequences, find patterns, and challenge your brain with Math Genius, a free online math puzzle game.",
+      "Solve number sequences, find patterns, and challenge your brain with Math Puzzles, a free online math puzzle game.",
 
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Math Genius - Math Puzzle Game",
+        alt: "Math Puzzles - Math Puzzle Game",
       },
     ],
   },
@@ -94,10 +94,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Math Genius - Math Puzzle Game",
+    title: "Math Puzzles - Math Puzzle Game",
 
     description:
-      "Solve number sequences, find patterns, and challenge your brain with Math Genius.",
+      "Solve number sequences, find patterns, and challenge your brain with Math Puzzles.",
 
     images: ["/og-image.png"],
   },
@@ -108,19 +108,19 @@ const websiteJsonLd = {
 
   "@type": "WebSite",
 
-  name: "Math Genius",
+  name: "Math Puzzles",
 
   url: "https://mathpuzzle.fun/",
 
   description:
-    "Math Genius is a free online math puzzle game based on number sequences, patterns, and logical thinking.",
+    "Math Puzzles is a free online math puzzle game based on number sequences, patterns, and logical thinking.",
 
   inLanguage: "en",
 
   publisher: {
     "@type": "Organization",
 
-    name: "Math Genius",
+    name: "Math Puzzles",
 
     url: "https://mathpuzzle.fun/",
   },
